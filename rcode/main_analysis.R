@@ -1,7 +1,6 @@
-##'# Procedimento geral de classificacao de imagens Landsat
-#'# Paulo E. Cardoso 27/07/2015
-#'# Classificação da Cena Landsat de 2014 LC82040522014030LGN00
-#'# para correcao da are ade mangal na ilha de bolama
+##'# GENERAL PROCEDURE FOR LANDSAT CLASSIFICATION WITH RANDOM FOREST
+#'# 06/05/2017
+#'# Exemple: Scene Landsat 2014 LC82040522014030LGN00
 
 #'# Load/Install Packages ##########################################################
 kpacks <- c('raster', 'sp', 'rgdal', 'rgeos', 'ggplot2'
